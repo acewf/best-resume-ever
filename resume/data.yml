@@ -1,43 +1,92 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  first: Pedro
+  middle: Sousa
+  last: Martins
+about: Hi, my name is Pedro. I"m working as developer for 15 years, add my fair share of projects,
+      but always keen to deliver the best project possible, on my spare time i like to get play video games,
+      enjoy time with my family.
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1983
+  location: Lisbon
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Square Enix
+  position: Front End Developer
+  timeperiod: since February 2017
+  description: Building tools and marketing websites for promoting games. 
+  technologies: React / Gatsbyjs / GraphQl / CSS-in-JS libraries / Webgl / Svelte / Sapper
+  website: https://square-enix-games.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Gamesys
+  position: Games Developer
+  timeperiod: July 2015 - January 2017
+  description: Develop html5 games for online gambling casinos.
+  technologies: React / Pixi.js / Webgl
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: The Hotel
+  position: Games/Front End Developer
+  timeperiod: July 2014 - June 2015
+  description: Develop game/website for carton series Nutriventures.
+  technologies: Html / Vanilla Javascript / Actionscript
+
+- company: Mobbit Systems
+  position: Front End Developer / Flash developer
+  timeperiod: March 2013 - June 2014
+  description: Develop interactive applications for display show, mobile applications and ticket
+               dispensers to service management.
+  technologies: Html / Vanilla Javascript / Actionscript
+
+- company: Freelancer
+  position: Front End Developer
+  timeperiod: June 2012 - March 2013
+  description: Develop digital marketing, or small clients websites.
+  technologies: Html / Vanilla Javascript / Actionscript / PHP / Mysql / Wordpress
+
+- company: LeoBurnett
+  position: Front End Developer / Digital Production Coordinator
+  timeperiod: December 2010 - June 2012
+  description: Develop digital marketing campaigns.
+  technologies: Html / Vanilla Javascript / Actionscript / PHP / Mysql / Umbraco
+
+- company: EuroRcsg/havas Worldwide
+  position: Front End Developer / Flash developer
+  timeperiod: January 2010 - December 2010
+  description: Develop digital marketing campaigns.
+  technologies: Html / Vanilla Javascript / Actionscript / PHP / Mysql
+
+- company: EuroRcsg/havas Worldwide
+  position: Front End Developer / Flash developer
+  timeperiod: January 2010 - December 2010
+  description: Develop digital marketing campaigns for some brands.
+  technologies: Html / Vanilla Javascript / Actionscript
+
+- company: Pkage Design
+  position: Front End Developer / Flash developer
+  timeperiod: March 2007 - November 2009
+  description: Build dynamic Flash based websites powered by .net webservices, php, or xml.
+  technologies: Html / Vanilla Javascript / Actionscript / PHP / Mysql
+
+- company: Novabase
+  position: Front End Developer / Flash developer
+  timeperiod: November 2004 - November 2006
+  description: Develop contents for a e-learning plataform, contents made using flash as2/as3.
+  technologies: Actionscript
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Sciences and Technologies Secondary
+  timeperiod: September 1999 - May 2003
+  description: Biology , Descriptive Geometry, Physics.
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Multimedia technical
+  timeperiod: November 2003 - September 2004
+  description: Learn multiple softwares for developing multimedia projects
+
+- degree: Webdesign Profissional Galileu
+  timeperiod: September 2002 - March 2003
+  description: web development basics what is and how works html, css, javascript, actionscript, photoshop.
 
 # skill level goes 0 to 100
 skills:
@@ -49,14 +98,16 @@ skills:
   level: 97
 - name: Node.js
   level: 93
-- name: Angular 2
-  level: 60
+- name: React
+  level: 98
 - name: TypeScript
   level: 80
-- name: ES.Next
+- name: NoSQL(Mongodb)
+  level: 80
+- name: GraphQl
   level: 70
 - name: Docker
-  level: 99
+  level: 80
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
@@ -81,12 +132,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+  email: blah@contact.me
+  phone: 0123459277020
+  street: Tudor Court, Princes Riverside
+  city: London
+  website: pixelkiller.net
+  github: acewf
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
